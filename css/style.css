@@ -1,0 +1,68 @@
+body {
+    background-image: url("pic.jpg");
+    text-align: center;
+    font-size: 30px;
+}
+
+#principal {
+	display: flex;
+	justify-content: space-around;
+}
+
+.col-1 {
+	width:25%
+}
+.col-2 {
+	width:50%
+}
+.col-3 {
+	width:25%
+}
+
+h1{
+    color: rgb(249, 192, 21);
+    text-shadow: 0px 0 rgb(125, 128, 0), 0 3px rgb(24, 154, 138), 2px 0 rgb(245, 125, 1), 0 -1px rgb(245, 125, 1);
+    font-family: "Tahoma", "Geneva", sans-serif;
+}
+
+
+h2 {
+
+	font-size: 42px;
+	font-family: "Tahoma", "Geneva", sans-serif;
+
+}
+
+
+a:link {
+
+	font-size: 30px;
+
+	color: black;
+
+	padding: 1px 1px;
+
+	text-align: center;
+
+	text-decoration: none;
+
+}
+
+.izq_lat {
+	margin-left:auto; margin-right:0;
+}
+
+.center {
+	margin-center:auto; margin-right:0;
+}
+
+.der_lat {
+	margin-right:auto; margin-right:0;
+}
+
+.wrapper {
+    padding: 50px;
+    margin-top: 20px;
+    display: inline-block;
+    box-shadow: 0px 0px 10px 5px rgb(255, 127, 39);
+}
